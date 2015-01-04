@@ -1,0 +1,176 @@
+/* COLOR SETUP */
+$headerBG: #4E5861;
+$blockBG: #FCFCFC;
+$background: darken($blockBG, 5%);
+
+/* HELPER CLASSES */
+.no-margin {
+  margin-left: 0px;
+}
+
+.no-pad-bottom {
+  padding-bottom: 0px;
+}
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+.hr {
+  border-bottom: 1px solid darken($blockBG, 10%);
+}
+
+.hr-dotted {
+  border-bottom: 1px dotted darken($blockBG, 10%);
+}
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-center-2 {
+}
+
+.push-top-sm {
+  margin-top: 15px;
+}
+/* IMAGE CLASSES */
+.avatar {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.polaroid {
+  padding: 3px;
+  border: 2px solid darken($blockBG, 4%);
+}
+
+.big {  }
+
+
+/* MAIN CLASSES */
+body {
+  background: $background;
+  color: darken($blockBG, 52%);
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: darken($headerBG, 2%);
+  color: lighten(gray, 32.5%);
+  padding-top: 15px;
+
+  h3 {
+    margin: 0px;
+    color: lighten($blockBG, 20%);
+  }
+
+  i {
+    margin-right: 5px;
+    font-size: 120%;
+  }
+
+  ul {
+    float: right;
+    margin: 0px;
+    line-height: 30px;
+    list-style-type: none;
+
+    li {
+      display: inline;
+      padding: 0px 2px 0px 2px;
+
+      &:hover {
+        color: lighten(gray, 15%);
+      }
+    }
+  }
+}
+
+.content {
+  position: relative;
+  top: 110px;
+
+  .block-content {
+    background: $blockBG;
+    padding: 15px;
+    margin-bottom: 12px;
+    -webkit-box-shadow: 0px 5px 5px -3px darken($blockBG, 25%);
+    -moz-box-shadow: 0px 5px 5px -3px darken($blockBG, 25%);
+    box-shadow: 0px 5px 5px -3px darken($blockBG, 25%);
+  }
+
+  .profile {
+
+    ul {
+      float: left;
+    }
+
+    li {
+      clear: left;
+      display: block;
+    }
+  }
+
+  i {
+    margin-right: 5px;
+    font-size: 120%;
+  }
+
+  ul {
+    margin: 0px;
+    line-height: 30px;
+    list-style-type: none;
+
+    li {
+      display: inline;
+      padding: 0px 2px 0px 2px;
+
+      &:hover {
+        color: lighten(gray, 15%);
+      }
+    }
+  }
+
+  .users {
+
+    h3 { text-align: center; }
+
+    .user {
+      clear: left;
+      width: 95%;
+      padding: 10px;
+
+      &:hover {
+        background: darken($blockBG, 3%);
+      }
+
+      .userName {
+        clear: right;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        font-size: 130%;
+        line-height: 40px;
+        margin-left: 10px;
+      }
+
+      .about-section {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 90px;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+
+  }
+
+}

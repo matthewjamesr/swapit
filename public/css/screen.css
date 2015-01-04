@@ -1,0 +1,124 @@
+/* COLOR SETUP */
+/* HELPER CLASSES */
+.no-margin {
+  margin-left: 0px; }
+
+.no-pad-bottom {
+  padding-bottom: 0px; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.hr {
+  border-bottom: 1px solid #e3e3e3; }
+
+.hr-dotted {
+  border-bottom: 1px dotted #e3e3e3; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.push-top-sm {
+  margin-top: 15px; }
+
+/* IMAGE CLASSES */
+.avatar {
+  width: 60%;
+  border-radius: 50%; }
+
+.polaroid {
+  padding: 3px;
+  border: 2px solid #f2f2f2; }
+
+/* MAIN CLASSES */
+body {
+  background: #efefef;
+  color: #777777; }
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #49535b;
+  color: lightgray;
+  padding-top: 15px; }
+  .header h3 {
+    margin: 0px;
+    color: white; }
+  .header i {
+    margin-right: 5px;
+    font-size: 120%; }
+  .header ul {
+    float: right;
+    margin: 0px;
+    line-height: 30px;
+    list-style-type: none; }
+    .header ul li {
+      display: inline;
+      padding: 0px 2px 0px 2px; }
+      .header ul li:hover {
+        color: #a6a6a6; }
+
+.content {
+  position: relative;
+  top: 110px; }
+  .content .block-content {
+    background: #FCFCFC;
+    padding: 15px;
+    margin-bottom: 12px;
+    -webkit-box-shadow: 0px 5px 5px -3px #bcbcbc;
+    -moz-box-shadow: 0px 5px 5px -3px #bcbcbc;
+    box-shadow: 0px 5px 5px -3px #bcbcbc; }
+  .content .profile ul {
+    float: left; }
+  .content .profile li {
+    clear: left;
+    display: block; }
+  .content i {
+    margin-right: 5px;
+    font-size: 120%; }
+  .content ul {
+    margin: 0px;
+    line-height: 30px;
+    list-style-type: none; }
+    .content ul li {
+      display: inline;
+      padding: 0px 2px 0px 2px; }
+      .content ul li:hover {
+        color: #a6a6a6; }
+  .content .users h3 {
+    text-align: center; }
+  .content .users .user {
+    clear: left;
+    width: 95%;
+    padding: 10px; }
+    .content .users .user:hover {
+      background: #f4f4f4; }
+    .content .users .user .userName {
+      clear: right;
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      font-size: 130%;
+      line-height: 40px;
+      margin-left: 10px; }
+    .content .users .user .about-section {
+      margin: 0px;
+      padding: 0px;
+      margin-top: 90px;
+      padding: 5px;
+      text-align: center; }
+
+/*# sourceMappingURL=screen.css.map */
