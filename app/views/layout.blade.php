@@ -11,12 +11,12 @@
   <section class="header">
     <div class="container">
       <div class="row">
-        <div class="four columns">
-          <h3>BOXLY</h3>
+        <div class="two columns">
+          <h3>{{ HTML::linkRoute('home', 'Swapit') }}</h3>
         </div>
-        <div class="twelve columns">
+        <div class="ten columns">
           <ul>
-            <li><i class="fi-torsos-all"></i><span>Clients</span></li>
+            <li><i class="fi-torsos-all"></i><span>{{ HTML::linkRoute('user.index', 'Users') }}</span></li>
             <li><i class="fi-eye"></i><span>Sitters</span></li>
             <li><i class="fi-torso"></i><span>Admin</span></li>
             <li><i class="fi-graph-bar"></i><span>Reports</span></li>

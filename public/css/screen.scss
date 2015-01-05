@@ -66,6 +66,7 @@ body {
   background: darken($headerBG, 2%);
   color: lighten(gray, 32.5%);
   padding-top: 15px;
+  padding-bottom: 15px;
 
   h3 {
     margin: 0px;
@@ -80,7 +81,7 @@ body {
   ul {
     float: right;
     margin: 0px;
-    line-height: 30px;
+    line-height: 40px;
     list-style-type: none;
 
     li {

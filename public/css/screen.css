@@ -53,7 +53,8 @@ body {
   width: 100%;
   background: #49535b;
   color: lightgray;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
   .header h3 {
     margin: 0px;
     color: white; }
@@ -63,7 +64,7 @@ body {
   .header ul {
     float: right;
     margin: 0px;
-    line-height: 30px;
+    line-height: 40px;
     list-style-type: none; }
     .header ul li {
       display: inline;

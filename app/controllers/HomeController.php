@@ -17,6 +17,11 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
+		View::composer('hello', function($view)
+		{
+			$view->with('title', 'Swapit');
+		});
+
 		return View::make('hello');
 	}
 
