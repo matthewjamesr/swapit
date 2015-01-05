@@ -1,5 +1,7 @@
 # Swapit: A beta-swap portal written in Laravel.
 
+Project tested with TravisCI.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
